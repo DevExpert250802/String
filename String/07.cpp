@@ -48,3 +48,53 @@ public:
         return true;
     }
 };
+
+
+
+
+
+
+
+
+
+
+
+
+
+class Solution {
+public:
+ bool isValidChar(char ch){
+  if((ch >='a' && ch<= 'z') ||(ch >= '0' && ch<= '9')) return true;
+  return false;
+}
+
+
+void toLowerCase(string &s) {
+    for (int i = 0; i < s.length(); i++) {
+        if (s[i] >= 'A' && s[i] <= 'Z') {
+            s[i] = s[i] + 32;
+        }
+    }
+}
+
+
+bool isPalindrome(string s) {
+    toLowerCase(s);
+    int i=0, j=s.length()-1;
+    bool isPalindrome=true;
+    while(i<j){
+      if(isValidChar(s[i]) && isValidChar(s[j])){
+        if(s[i]==s[j]){
+         i++; j--;
+         continue;
+        } else {
+         isPalindrome = false;
+         break;
+        }
+      }
+      if(!isValidChar(s[i])) i++;
+      if(!isValidChar(s[j])) j--;
+    }
+   return isPalindrome;
+}
+};
