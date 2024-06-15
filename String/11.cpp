@@ -12,7 +12,6 @@ Output: 4
 Explanation: 
 The required substrings are 01, 0011, 01 and 01.
 
-
 Example 2:
 Input:
 S = "0111100010"
