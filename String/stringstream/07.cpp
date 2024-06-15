@@ -15,7 +15,6 @@ Explanation : The ASCII values of the characters in s are: 'h' = 104, 'e' = 101,
 */
 
 
-
 class Solution {
 public:
     int scoreOfString(string s) {
