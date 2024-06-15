@@ -2,7 +2,6 @@
     Company Tags                 : Amazon (With variations), Microsoft, MentorGraphics, MakeMyTrip, Accolite, Adobe, Cisco, Goldman Sachs,Paytm, 
                                    Samsung, SAP Labs
     Leetcode Link                : https://leetcode.com/problems/reverse-words-in-a-string/
-
 Problem statement
 You are given a string 'str' of length 'N'.Your task is to reverse the original string word by word.There can be multiple spaces between two words and there can be leading or trailing spaces but in the output reversed string you need to put a single space between two words, and your reversed string should not contain leading or trailing spaces.
 Example :If the given input string is "Welcome to Coding Ninjas", then you should return "Ninjas Coding to Welcome" as the reversed string has only a single space between two words and there is no leading or trailing space
