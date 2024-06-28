@@ -47,3 +47,11 @@ public:
         return result;
     }
 };
+
+
+
+Time Complexity : O(3^4×n)=O(81×n)=O(n)
+since each position can branch into 3 possibilities, and the depth is bounded by 4.
+
+Space Complexity : O(n)
+recursion stack space
